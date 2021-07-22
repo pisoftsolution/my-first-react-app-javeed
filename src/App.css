@@ -1,12 +1,27 @@
+#root{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+	background: #f7f7f7;
+	color: #686868;
+}
 .container{
-    padding-top: 10px;
-    background-color:  #f7f7f7;
+    height: 680px;
+    width: 400px;
 }
 .row{
+    margin-top: 50px;
     justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.card{
+    margin-top: 97px;
+    background-color:thistle;
+    width: 370px;
 }
 .card-body{
     height: 500px;
+    
 }
 img{
 height: 130px;
@@ -37,8 +52,40 @@ h3 a
     margin-right: 6px;
     text-align: center;
     padding-top: 10px;
+    color: black;
     
 }
 button.nn{
 background-color: #88c136;
+border-radius: 1px solid #dddd;
 }
+.tw_checkbox{
+    display:flex;
+    margin-left: 15px;
+}
+#email{
+box-shadow: none;
+font-size: 14px;
+background-color: rgb(232, 240, 254);
+}
+.form-group{
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+#email:focus{
+    border-color:#88c136;
+    }
+    #password{
+        box-shadow: none;
+        font-size: 14px;
+        background-color: rgb(232, 240, 254);
+        }
+        #password:focus{
+            border-color:#88c136;
+            }
+            button.btn.nn{
+                box-shadow: none;
+                color: white;
+
+            }
