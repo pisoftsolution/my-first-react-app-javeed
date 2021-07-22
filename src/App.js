@@ -9,7 +9,7 @@ function App() {
           <div class="row">
             <div class="col-md-4">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body shadow-lg">
                   <div class="image">
                   <a href="https://pisoftsolution.com/login">
                     <img src="https://pisoftsolution.com/media/04062021183428-logo_-_Copy-removebg-preview1.png"></img>
